@@ -1,10 +1,4 @@
 # cloud
-chosen project: https://github.com/DanielDPN/django-rest-api-jwt
-
-Services: user, song
-
-Reasons for choosing these services: convi
-
 
 
 chosen project: https://github.com/OmerFI/PyForum
