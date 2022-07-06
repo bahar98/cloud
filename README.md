@@ -60,4 +60,14 @@ Dependencies:
     reason: must obtain user from database
     solution: trust user_id from jwt token
     
+ -
+ 
+    owner_post = models.ForeignKey("Post", on_delete=models.CASCADE)
+    comment-service --> post-service:
+    where: backend/baese/models.py, class: post
+    happened: backend/baese/models.py, class: comment
+    code: owner_post = models.ForeignKey("Post", on_delete=models.CASCADE)
+    reason: imported and used
+    solution: GRPC
+    
     
