@@ -41,7 +41,5 @@ Portion of code for comment service:
     https://github.com/OmerFI/PyForum/blob/main/backend/base/migrations/0008_alter_comment_content_alter_post_content_and_more.py : lines 14-18
     https://github.com/OmerFI/PyForum/blob/main/backend/base/admin.py : lines 7-11 & 44
     
-    
-    
-    
-    (lines 18-25 have been overlooked in order to keep the service simple and lightweight)
+     
+(Parts of the code that are about category, reply and profile are overlooked to keep the project simple and lightweight. Other parts are needed in all of the services.)
