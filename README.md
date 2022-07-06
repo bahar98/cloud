@@ -53,9 +53,11 @@ Portion of code for comment service:
 
 Dependencies: 
 
-course-service --> user-management-service:
-        where: monolith/users/models.py, class: User
-        happened: monolith/courses/views.py, class: CourseView
-        code: Users.objects.get(id=student_id)
-        reason: must obtain user from database
-        solution: trust user_id from jwt token
+    comment-service --> user-service:
+    where: backend/base/models.py, class: User
+    happened: backend/base/models.py , class: comment
+    code: author = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    reason: must obtain user from database
+    solution: trust user_id from jwt token
+    
+    
