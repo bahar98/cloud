@@ -47,7 +47,15 @@ Portion of code for comment service:
 
 ![Untitled drawing](https://user-images.githubusercontent.com/74864000/177577917-eefdf7b2-b556-43d4-b27f-4b890d1de3be.jpg)
 
+![Untitled drawing(1)](https://user-images.githubusercontent.com/74864000/177585081-e630ebc6-4d3c-4f3b-a093-e7b35c7d0a7e.jpg)
 
 
 
+Dependencies: 
 
+course-service --> user-management-service:
+        where: monolith/users/models.py, class: User
+        happened: monolith/courses/views.py, class: CourseView
+        code: Users.objects.get(id=student_id)
+        reason: must obtain user from database
+        solution: trust user_id from jwt token
