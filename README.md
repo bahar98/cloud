@@ -43,3 +43,11 @@ Portion of code for comment service:
     
      
 (Parts of the code that are about category, reply and profile are overlooked to keep the project simple and lightweight. Other parts are needed in all of the services.)
+
+
+![Untitled drawing](https://user-images.githubusercontent.com/74864000/177577917-eefdf7b2-b556-43d4-b27f-4b890d1de3be.jpg)
+
+
+
+
+
