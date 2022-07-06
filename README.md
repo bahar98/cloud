@@ -26,6 +26,7 @@ Portion of code for user service:
     
 
 Portion of code for post service: 
+
     https://github.com/OmerFI/PyForum/blob/main/backend/base/models.py : lines 57-72
     https://github.com/OmerFI/PyForum/blob/main/backend/api/serializers.py : lines 83-99
     https://github.com/OmerFI/PyForum/blob/main/backend/api/urls.py : line 36
@@ -36,7 +37,8 @@ Portion of code for post service:
     https://github.com/OmerFI/PyForum/blob/main/backend/base/migrations/0009_alter_post_title.py : lines 14-18
     https://github.com/OmerFI/PyForum/blob/main/backend/base/admin.py : lines 14-18 & 43
 
-Portion of code for comment service: 
+Portion of code for comment service:
+
     https://github.com/OmerFI/PyForum/blob/main/backend/base/models.py : lines 45-54
     https://github.com/OmerFI/PyForum/blob/main/backend/api/serializers.py : lines 102-127
     https://github.com/OmerFI/PyForum/blob/main/backend/api/urls.py : lines 37-39
